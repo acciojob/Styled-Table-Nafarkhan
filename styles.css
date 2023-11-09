@@ -1,1 +1,26 @@
 /* your code */
+table {
+            width: 100%;
+			border: 1px solid lightgrey;
+			border-radius: 20px;
+            border-collapse: collapse;
+            margin: auto;
+			
+        }
+
+        th, td {
+            text-align: center;
+        }
+
+        th {
+		    background-color: darkblue;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightGrey;
+        }
+
+        tbody tr:nth-child(odd) {
+	            background-color: White;
+        }
